@@ -16,15 +16,15 @@ A four-wheel multifunctional robotic car documented as an academic **All-in-One 
 
 ### Outdoor Prototype
 
-![Four-wheel robot prototype outdoors](robot-outdoor.jpg)
+![Four-wheel robot prototype outdoors](images/robot-outdoor.jpg)
 
 ### Front View
 
-![Front view of robot with ultrasonic sensor and servo](robot-front.jpg)
+![Front view of robot with ultrasonic sensor and servo](images/robot-front.jpg)
 
 ### Demonstration Video
 
-[Watch the RC Car Demonstration](robot-demo.mp4)
+[▶ Watch the RC Car Demonstration](videos/robot-demo.mp4)
 
 ## Modes Described in the Recovered Sketch
 
@@ -36,7 +36,7 @@ A four-wheel multifunctional robotic car documented as an academic **All-in-One 
 | `2` | Line Following with Obstacle Avoidance | Combines bottom IR sensing with an ultrasonic distance check. |
 | `3` | Object Following | Uses the ultrasonic sensor and the two top IR sensor inputs. |
 
-Manual movement commands in the recovered sketch:
+### Manual Movement Commands
 
 | Command | Action |
 |---|---|
@@ -89,7 +89,7 @@ These are **code-defined pin assignments**, not a verified wiring diagram. Check
 
 The recovered Arduino sketch is available here:
 
-[**RC_CAR_recovered.ino**](RC_CAR_recovered.ino)
+[**RC_CAR_recovered.ino**](src/RC_CAR_recovered.ino)
 
 The sketch includes the following libraries:
 
@@ -122,7 +122,31 @@ It discusses:
 
 A summary of the original report is available here:
 
-[**Project Report Summary**](project-report-summary.md)
+[**Project Report Summary**](docs/project-report-summary.md)
+
+For additional information about the recovered materials and verification status, see [**Project Status**](PROJECT_STATUS.md).
+
+## Repository Structure
+
+```text
+Arduino-Autonomous-RC-Car/
+│
+├── README.md
+├── PROJECT_STATUS.md
+│
+├── src/
+│   └── RC_CAR_recovered.ino
+│
+├── images/
+│   ├── robot-front.jpg
+│   └── robot-outdoor.jpg
+│
+├── docs/
+│   └── project-report-summary.md
+│
+└── videos/
+    └── robot-demo.mp4
+```
 
 ## Known Limitations
 
