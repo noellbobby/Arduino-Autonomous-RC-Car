@@ -124,15 +124,13 @@ A summary of the original report is available here:
 
 [**Project Report Summary**](docs/project-report-summary.md)
 
-For additional information about the recovered materials and verification status, see [**Project Status**](PROJECT_STATUS.md).
+For additional information about the recovered materials and verification status, see [**Project Status**](docs/PROJECT_STATUS.md).
 
 ## Repository Structure
 
-```text
 Arduino-Autonomous-RC-Car/
 │
 ├── README.md
-├── PROJECT_STATUS.md
 │
 ├── src/
 │   └── RC_CAR_recovered.ino
@@ -142,12 +140,12 @@ Arduino-Autonomous-RC-Car/
 │   └── robot-outdoor.jpg
 │
 ├── docs/
+│   ├── PROJECT_STATUS.md
 │   └── project-report-summary.md
 │
 └── videos/
     └── robot-demo.mp4
-```
-
+    
 ## Known Limitations
 
 - The original physical prototype is no longer available for further testing.
